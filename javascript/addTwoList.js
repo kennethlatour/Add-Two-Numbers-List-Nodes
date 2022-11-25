@@ -6,13 +6,14 @@ class Node {
 }
 
 function addTwoList(l1, l2) {
-// type your code here
+ const int1 = toString([2])
+ console.log (int1)
 }
 
 if (require.main === module) {
 // add your own tests in here
 console.log("Expecting: { val: 0, next: null }");
-console.log("=>", addTwoNumbers({ val: 0, next: null }, { val: 0, next: null }));
+console.log("=>", addTwoList({ val: 0, next: null }, { val: 0, next: null }));
 
 }
 
